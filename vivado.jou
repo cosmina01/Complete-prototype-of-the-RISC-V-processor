@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Jan 16 11:33:12 2024
+# Process ID: 6980
+# Current directory: D:/ANUL 3/APM/RISC_V
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28784 D:\ANUL 3\APM\RISC_V\RISC_V_IF_ID.xpr
+# Log file: D:/ANUL 3/APM/RISC_V/vivado.log
+# Journal file: D:/ANUL 3/APM/RISC_V\vivado.jou
+# Running On: DESKTOP-GNEB904, OS: Windows, CPU Frequency: 1797 MHz, CPU Physical cores: 16, Host memory: 16458 MB
+#-----------------------------------------------------------
+start_gui
+open_project {D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+source RISC_V_TB.tcl
+current_wave_config {Untitled 1}
+add_wave {{/RISC_V_TB/procesor/instruction_decode/REGISTER_FILE_MODULE/Registers}} 
+close_sim
+launch_simulation
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+update_compile_order -fileset sources_1
+launch_simulation

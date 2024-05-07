@@ -1,0 +1,748 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Jan 16 11:33:12 2024
+# Process ID: 6980
+# Current directory: D:/ANUL 3/APM/RISC_V
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28784 D:\ANUL 3\APM\RISC_V\RISC_V_IF_ID.xpr
+# Log file: D:/ANUL 3/APM/RISC_V/vivado.log
+# Journal file: D:/ANUL 3/APM/RISC_V\vivado.jou
+# Running On: DESKTOP-GNEB904, OS: Windows, CPU Frequency: 1797 MHz, CPU Physical cores: 16, Host memory: 16458 MB
+#-----------------------------------------------------------
+start_gui
+open_project {D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.xpr}
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.0/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.1/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc702:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc702/1.4/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu104/1.1/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.4/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.5/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.6/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'D:/ANUL3/APM/RISC_V_IF_ID' since last save.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+open_project: Time (s): cpu = 00:00:51 ; elapsed = 00:00:21 . Memory (MB): peak = 1469.840 ; gain = 78.438
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'RISC_V_TB'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'RISC_V_TB' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim/code.mem'
+INFO: [SIM-utils-43] Exported 'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim/code.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj RISC_V_TB_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/ALUcontrol.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUcontrol
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/EX_MEM_pipe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX_MEM_pipe
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/ID_EX_pipe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_EX_pipe
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/IF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/control_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/if_id_pipe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_ID_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/imm_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imm_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/instruction_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/mux2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/mux3_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/registers.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module registers
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_V
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sim_1/new/test_riscv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_V_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_V_TB_behav xil_defaultlib.RISC_V_TB xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_V_TB_behav xil_defaultlib.RISC_V_TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'PC_EX' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sim_1/new/test_riscv.v:22]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'ALU_OUT_EX' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sim_1/new/test_riscv.v:23]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'PCSrc' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sim_1/new/test_riscv.v:24]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'DATA_MEMORY_MEM' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sim_1/new/test_riscv.v:25]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 2 for port 'forwardA' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sim_1/new/test_riscv.v:27]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 2 for port 'forwardB' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sim_1/new/test_riscv.v:28]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'pipeline_stall' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sim_1/new/test_riscv.v:29]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'PC_Branch' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:40]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'pc_out' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:48]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'PC_ID' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:53]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 5 for port 'RD_WB' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:56]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'IMM_ID' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:57]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'REG_DATA1_ID' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:58]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 3 for port 'FUNCT3_ID' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:63]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 7 for port 'OPCODE' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:64]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 5 for port 'RD_ID' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:65]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'PC_out' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:81]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'IMM_EX' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:92]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'REG_DATA1_EX' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:93]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'REG_DATA2_EX' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:94]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 3 for port 'FUNCT3_EX' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:96]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 7 for port 'FUNCT7_EX' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:97]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 5 for port 'RD_EX' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:98]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 5 for port 'RS1_EX' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:99]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 5 for port 'RS2_EX' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:100]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'ALUop_EX' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:105]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'ALU_OUT_MEM' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:110]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'PC_Branch_EX' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:114]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'REG_DATA2_EX_FINAL' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:115]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'pc_in' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:121]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 3 for port 'func3_in' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:122]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'func7_in' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:123]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'alu_in' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:125]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'reg2_data_in' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:126]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 5 for port 'rd_in' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:127]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'pc_out' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:129]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'IF_ID_write' is not permitted [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sim_1/new/test_riscv.v:22]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'PCSrc' is not permitted [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sim_1/new/test_riscv.v:23]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'PC_Branch' is not permitted [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sim_1/new/test_riscv.v:24]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'RegWrite_WB' is not permitted [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sim_1/new/test_riscv.v:25]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'ALU_DATA_WB' is not permitted [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sim_1/new/test_riscv.v:26]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'RD_WB' is not permitted [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sim_1/new/test_riscv.v:27]
+ERROR: [VRFC 10-8616] 'RISC_V' requires 11 arguments [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sim_1/new/test_riscv.v:21]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1504.914 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:12 . Memory (MB): peak = 1504.914 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'RISC_V_TB'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'RISC_V_TB' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim/code.mem'
+INFO: [SIM-utils-43] Exported 'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim/code.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj RISC_V_TB_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/ALUcontrol.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUcontrol
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/EX_MEM_pipe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX_MEM_pipe
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/ID_EX_pipe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_EX_pipe
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/IF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/control_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/if_id_pipe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_ID_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/imm_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imm_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/instruction_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/mux2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/mux3_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/registers.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module registers
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_V
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sim_1/new/test_riscv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_V_TB
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_V_TB_behav xil_defaultlib.RISC_V_TB xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_V_TB_behav xil_defaultlib.RISC_V_TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'PC_Branch' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:40]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'pc_out' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:48]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'PC_ID' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:53]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 5 for port 'RD_WB' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:56]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'IMM_ID' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:57]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'REG_DATA1_ID' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:58]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 3 for port 'FUNCT3_ID' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:63]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 7 for port 'OPCODE' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:64]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 5 for port 'RD_ID' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:65]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'PC_out' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:81]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'IMM_EX' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:92]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'REG_DATA1_EX' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:93]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'REG_DATA2_EX' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:94]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 3 for port 'FUNCT3_EX' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:96]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 7 for port 'FUNCT7_EX' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:97]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 5 for port 'RD_EX' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:98]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 5 for port 'RS1_EX' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:99]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 5 for port 'RS2_EX' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:100]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'ALUop_EX' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:105]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'ALU_OUT_MEM' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:110]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'PC_Branch_EX' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:114]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'REG_DATA2_EX_FINAL' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:115]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'pc_in' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:121]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 3 for port 'func3_in' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:122]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'func7_in' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:123]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'alu_in' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:125]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'reg2_data_in' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:126]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 5 for port 'rd_in' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:127]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'pc_out' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:129]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.instruction_memory
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.mux2_1
+Compiling module xil_defaultlib.IF
+Compiling module xil_defaultlib.IF_ID_reg
+Compiling module xil_defaultlib.control_path
+Compiling module xil_defaultlib.registers
+Compiling module xil_defaultlib.imm_gen
+Compiling module xil_defaultlib.ID
+Compiling module xil_defaultlib.ID_EX_pipe
+Compiling module xil_defaultlib.mux3_1
+Compiling module xil_defaultlib.ALUcontrol
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.EX
+Compiling module xil_defaultlib.EX_MEM_pipe
+Compiling module xil_defaultlib.RISC_V
+Compiling module xil_defaultlib.RISC_V_TB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot RISC_V_TB_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 1504.914 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "RISC_V_TB_behav -key {Behavioral:sim_1:Functional:RISC_V_TB} -tclbatch {RISC_V_TB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source RISC_V_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 210 ns : File "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sim_1/new/test_riscv.v" Line 69
+xsim: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 1531.711 ; gain = 26.797
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'RISC_V_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:13 ; elapsed = 00:00:19 . Memory (MB): peak = 1531.711 ; gain = 26.797
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/RISC_V_TB/procesor/instruction_decode/REGISTER_FILE_MODULE/Registers}} 
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'RISC_V_TB'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'RISC_V_TB' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim/code.mem'
+INFO: [SIM-utils-43] Exported 'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim/code.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj RISC_V_TB_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/ALUcontrol.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUcontrol
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/EX_MEM_pipe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX_MEM_pipe
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/ID_EX_pipe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_EX_pipe
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/IF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/control_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/forwarding.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwarding
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/hazard_detection.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard_detection
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/if_id_pipe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_ID_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/imm_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imm_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/instruction_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/mux2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/mux3_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/registers.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module registers
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_V
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sim_1/new/test_riscv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_V_TB
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_V_TB_behav xil_defaultlib.RISC_V_TB xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_V_TB_behav xil_defaultlib.RISC_V_TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2063] Module <MEM_WB_REGISTER> not found while processing module instance <MEM_WB_pipeline> [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:167]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1547.051 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'RISC_V_TB'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'RISC_V_TB' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim/code.mem'
+INFO: [SIM-utils-43] Exported 'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim/code.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj RISC_V_TB_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/ALUcontrol.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUcontrol
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/EX_MEM_pipe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX_MEM_pipe
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/ID_EX_pipe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_EX_pipe
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/IF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/control_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/forwarding.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwarding
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/hazard_detection.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard_detection
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/if_id_pipe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_ID_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/imm_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imm_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/instruction_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/mux2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/mux3_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/registers.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module registers
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_V
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sim_1/new/test_riscv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_V_TB
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_V_TB_behav xil_defaultlib.RISC_V_TB xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_V_TB_behav xil_defaultlib.RISC_V_TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2063] Module <MEM_WB_REGISTER> not found while processing module instance <MEM_WB_pipeline> [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:206]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1547.051 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'RISC_V_TB'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'RISC_V_TB' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim/code.mem'
+INFO: [SIM-utils-43] Exported 'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim/code.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj RISC_V_TB_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/ALUcontrol.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUcontrol
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/EX_MEM_pipe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX_MEM_pipe
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/ID_EX_pipe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_EX_pipe
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/IF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/MEM_WB_pipe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_WB_pipe
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/control_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/forwarding.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwarding
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/hazard_detection.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard_detection
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/if_id_pipe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_ID_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/imm_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imm_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/instruction_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/mux2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/mux3_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/registers.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module registers
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_V
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sim_1/new/test_riscv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_V_TB
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_V_TB_behav xil_defaultlib.RISC_V_TB xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_V_TB_behav xil_defaultlib.RISC_V_TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'PC_Branch' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:79]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 7 for port 'OPCODE' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:103]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'PC_in' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:121]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'ALU_A_in' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:124]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'ALU_B_in' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:125]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 1 for port 'RS1_in' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:126]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 1 for port 'RS2_in' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:127]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 1 for port 'RD_in' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:128]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'IMM_in' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:129]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'PC_out' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:131]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'ALU_A_out' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:134]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'ALU_B_out' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:135]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 1 for port 'RS1_out' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:136]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 1 for port 'RS2_out' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:137]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 1 for port 'RD_out' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:138]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'IMM_out' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:139]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 3 for port 'func3_in' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:180]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'func7_in' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:181]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'alu_in' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:183]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'reg2_data_in' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:184]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'pc_out' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:187]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'alu_out' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:191]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 1 for port 'rd_out' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:193]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'data_in' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:207]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 5 for port 'rd_out' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:208]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 1 for port 'RegWrite_WB' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:209]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'MemtoReg_WB' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:210]
+ERROR: [VRFC 10-8616] 'control_path' requires 8 arguments [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:112]
+ERROR: [VRFC 10-8616] 'MEM_WB_pipe' requires 12 arguments [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:206]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'ALUop' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:114]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1547.051 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 1547.051 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'RISC_V_TB'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'RISC_V_TB' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim/code.mem'
+INFO: [SIM-utils-43] Exported 'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim/code.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj RISC_V_TB_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/ALUcontrol.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUcontrol
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/EX_MEM_pipe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX_MEM_pipe
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/ID_EX_pipe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_EX_pipe
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/IF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/MEM_WB_pipe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_WB_pipe
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/control_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/forwarding.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwarding
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/hazard_detection.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard_detection
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/if_id_pipe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_ID_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/imm_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imm_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/instruction_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/mux2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/mux3_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/registers.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module registers
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_V
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sim_1/new/test_riscv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_V_TB
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_V_TB_behav xil_defaultlib.RISC_V_TB xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_V_TB_behav xil_defaultlib.RISC_V_TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'PC_in' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:121]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'ALU_A_in' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:124]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'ALU_B_in' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:125]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 1 for port 'RS1_in' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:126]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 1 for port 'RS2_in' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:127]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 1 for port 'RD_in' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:128]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'IMM_in' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:129]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'PC_out' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:131]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 1 for port 'func3_out' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:132]
+WARNING: [VRFC 10-3091] actual bit length 7 differs from formal bit length 1 for port 'func7_out' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:133]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'ALU_A_out' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:134]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'ALU_B_out' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:135]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 1 for port 'RS1_out' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:136]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 1 for port 'RS2_out' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:137]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 1 for port 'RD_out' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:138]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'IMM_out' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:139]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 3 for port 'FUNCT3_EX' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:146]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 7 for port 'FUNCT7_EX' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:147]
+WARNING: [VRFC 10-3091] actual bit length 7 differs from formal bit length 8 for port 'func7_in' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:181]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'alu_in' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:183]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'reg2_data_in' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:184]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'pc_out' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:187]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'alu_out' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:191]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 1 for port 'rd_out' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:193]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'data_in' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:207]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 5 for port 'rd_out' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:208]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 1 for port 'RegWrite_WB' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:209]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'MemtoReg_WB' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:210]
+ERROR: [VRFC 10-8616] 'control_path' requires 8 arguments [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:112]
+ERROR: [VRFC 10-8616] 'MEM_WB_pipe' requires 12 arguments [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:206]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 7 for port 'opcode' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:112]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'ALUop' [D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.srcs/sources_1/new/risc_v.v:114]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1547.051 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/ANUL 3/APM/RISC_V/RISC_V_IF_ID.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:14 . Memory (MB): peak = 1547.051 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
